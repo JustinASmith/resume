@@ -1,0 +1,234 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Justin Smith",
+    "label": "Senior Data Engineer",
+    "picture": "https://avatars.githubusercontent.com/u/28692620?v=4",
+    "image": "https://avatars.githubusercontent.com/u/28692620?v=4",
+    "email": "me@justinsmith.sh",
+    "phone": "6623126864",
+    "url": "https://resume.justinsmith.sh",
+    "summary": "Versatile engineer specializing in scalable, data-intensive systems and high-performance applications. Proficient in modern frameworks and technologies, including but not limited to AWS, Kafka, React, Docker, PostgreSQL/TimescaleDB, and Jenkins. Demonstrates a proven track record in creating robust data pipelines, real-time event processing systems, and event-driven orchestration with pub/sub architectures, delivering scalable solutions with exceptional performance, reliability, and maintainability.\n\nAdaptable and ambitious, leveraging a diverse background in software and data engineering to tackle complex challenges, mitigate risks, and deliver impactful results. Skilled at aligning engineering solutions with business goals while fostering collaboration and knowledge-sharing to drive team success. Holds Secret PCL-Level Clearance, ensuring trust and reliability in sensitive environments.\n\n**Areas of Expertise**\n\nScalable Architecture Design, Data Engineering, Full-Stack Development, Distributed Systems, Cross-functional Team Collaboration, Real-Time Data Processing, Event-Driven Orchestration, Cloud and Containerization, Data Modeling, Software Design Patterns, Performance Optimization, Agile Development, DevOps, Software Development Lifecycle (SDL)",
+    "location": {
+      "region": "Mississippi",
+      "postalCode": "39759",
+      "city": "Starkville",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "justin-a-smith662",
+        "url": "https://www.linkedin.com/in/justin-a-smith662/"
+      },
+      {
+        "network": "GitHub",
+        "username": "JustinASmith",
+        "url": "https://github.com/JustinASmith"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Camgian",
+      "position": "Senior Data Engineer",
+      "startDate": "2023-07-31",
+      "highlights": [
+        "Spearheaded the architecture and development of a global analytics platform serving 60+ industrial assets, enabling real-time operational insights and improving fleet management efficiency",
+        "Pioneered fault-tolerant data processing architecture that reduced system latency by 50% while processing 15M+ daily records across 2.9K+ industrial assets",
+        "Collaborated on cost optimization initiatives resulting in 40% reduction in monthly cloud expenses through strategic resource allocation and monitoring implementation",
+        "Recognized as a subject matter expert in the team, demonstrating profound expertise in Data Engineering and System Architecture Design, contributing to team success and competence",
+        "Inducted into the IT Trusted Partner Program, designated as the go-to individual for the Data Science team to assist the IT team with general administrative tasks, installing software, and ensuring seamless support and operational efficiency for the team and clients",
+        "Orchestrated storage optimization design to achieve 70% improvement in efficiency, managing 60K+ time-series tables while ensuring compliance and accessibility",
+        "Boosted Kafka throughput by 300% by scaling a self-managed KRaft cluster, improving disaster recovery and real-time processing capabilities",
+        "Developed and implemented comprehensive load testing strategies, resulting in 20% increased system throughput and enhanced product reliability",
+        "Created standardized development frameworks and libraries, improving team velocity and reducing implementation errors across multiple projects",
+        "Successfully delivered multiple high-impact client solutions, securing new contracts including an $8M U.S. Army project",
+        "Designed and implemented Change Data Capture (CDC) architecture enabling near real-time insights for time-sensitive operations",
+        "Led cross-functional initiatives to streamline development workflows, resulting in improved code quality and reduced time-to-market"
+      ],
+      "summary": "Lead strategic technical initiatives focused on scaling data platforms and optimizing system performance. Drive innovation in real-time data processing while mentoring teams and establishing best practices. Consistently deliver solutions that enhance operational efficiency and create measurable business value.",
+      "url": "https://www.linkedin.com/company/303647",
+      "location": "Starkville, Mississippi, United States"
+    },
+    {
+      "name": "Camgian",
+      "position": "Software Engineer",
+      "startDate": "2021-06-30",
+      "endDate": "2023-07-31",
+      "highlights": [
+        "Drove design and development of company's first Cognitive Computing product, establishing the data science team and generating first recurring revenue in this business area",
+        "Led proof of concept demonstrations with external partners, developing edge-based data processing solutions that secured multi-million dollar contracts",
+        "Reduced code duplication by 30% through development of a shared monorepo architecture, implementing automated versioning and CI/CD pipelines",
+        "Improved release cycle times by 25% by streamlining build procedures and automating quality checks across environments",
+        "Enhanced system security by implementing SSO and MFA with additional security layers, automating user provisioning and access management",
+        "Delivered real-time data visualizations and interactive map displays for enhanced user engagement, integrating streaming data with web-based solutions",
+        "Streamlined system troubleshooting and improved reliability by developing comprehensive debugging procedures for containerized applications",
+        "Modernized development workflow by transitioning from legacy tools to Next.js, resulting in improved developer productivity, documentation adoption, and reusability",
+        "Established best practices for code quality and reusability through centralized configurations and automated build processes"
+      ],
+      "summary": "Developed modern web applications, data pipelines, and edge computing solutions while driving team efficiency and productivity. Focused on transitioning legacy tools to modern frameworks, automating workflows, and delivering impactful solutions for batch and near real-time analytics and cost-efficient deployments. Successfully supported critical production systems and high-profile contracts.",
+      "url": "https://www.linkedin.com/company/303647",
+      "location": "Starkville, Mississippi, United States"
+    },
+    {
+      "name": "Central Service Association",
+      "position": "Programmer Analyst Intern",
+      "startDate": "2020-05-31",
+      "endDate": "2021-04-30",
+      "highlights": [
+        "Designed and implemented full-stack web applications enabling utility companies to access and analyze customer usage data, improving operational efficiency",
+        "Engineered data processing solutions using Java Play Framework and PostgreSQL handling millions of daily electric, water, and gas usage records, ensuring accurate billing and reporting for utility providers",
+        "Developed customer-facing reporting system processing terabytes of data, enabling self-service access to usage analytics and CSV exports",
+        "Implemented comprehensive testing strategy combining unit, integration, and UI automation tests, ensuring data accuracy and system reliability",
+        "Streamlined data access and reporting workflows for utility providers, reducing manual processing time and improving data accessibility"
+      ],
+      "summary": "Designed and implemented data-centric applications for utility providers, focusing on large-scale data processing in Java and SQL, reporting automation, and reliable system testing. Delivered solutions that improved data accessibility and operational efficiency for utility companies managing electric, water, and gas services.",
+      "url": "https://www.linkedin.com/company/2433405",
+      "location": "Tupelo, Mississippi, United States"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Eastern University",
+      "area": "MBA/MS Dual Degree in Data Science and Organizational Management",
+      "studyType": "Master's degree",
+      "startDate": "2025-01-13"
+    },
+    {
+      "institution": "Mississippi State University",
+      "area": "Software Engineering",
+      "studyType": "Bachelor's degree",
+      "startDate": "2019-12-31",
+      "endDate": "2021-05-31",
+      "score": "3.68",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Phi Theta Kappa International Honor Society",
+      "date": "2019-08-31",
+      "summary": "Inducted as a member of Phi Theta Kappa Honor Society."
+    },
+    {
+      "title": "Cum Laude",
+      "date": "2021-05-31",
+      "summary": "Graduated with a 3.68 GPA from Mississippi State University."
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Data Engineering",
+      "level": "",
+      "keywords": [
+        "Extract, Load, Transform (ELT)",
+        "Extract, Transform, Load (ETL)",
+        "Data Pipelines",
+        "Change Data Capture (CDC)",
+        "Kafka",
+        "PostgreSQL",
+        "TimescaleDB"
+      ]
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "tRPC",
+        "PostgreSQL",
+        "TimescaleDB"
+      ]
+    },
+    {
+      "name": "Enterprise Procedures",
+      "level": "Expert",
+      "keywords": [
+        "Code Reviews",
+        "Documentation",
+        "Project Management",
+        "Agile Methodologies"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Expert",
+      "keywords": [
+        "Containerization",
+        "Docker",
+        "Continuous Integration and Continuous Delivery (CI/CD)",
+        "Monitoring and Alerting",
+        "GitHub Actions",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Enterprise Tools",
+      "level": "Expert",
+      "keywords": ["Git", "GitLab", "GitHub", "Okta (OIDC)"]
+    },
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": ["Java", "TypeScript", "Python", "C#", "SQL"]
+    },
+    {
+      "name": "Communication",
+      "level": "Expert",
+      "keywords": [
+        "Technical Writing",
+        "Public Speaking",
+        "Technical Presentations",
+        "Cross-Team Collaboration",
+        "Empathy",
+        "Active Listening",
+        "Storytelling"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Disc Golf",
+      "keywords": ["Casual League Play", "Cometitive Tournaments"]
+    },
+    {
+      "name": "Fishing",
+      "keywords": ["Bass Fishing"]
+    },
+    {
+      "name": "Springer Spaniel",
+      "keywords": ["Training"]
+    },
+    {
+      "name": "Home Improvement",
+      "keywords": ["DIY Projects", "Landscaping", "Painting"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Alexander Hines",
+      "reference": "Justin's adaptability and quick uptake of new tools and technologies played a critical role in our team's success. He identified Apache Kafka as the most suitable data engineering tool for extracting, replicating, and transforming data from proprietary systems. His design and implementation of the backend integrated data platform has been a stable and reliable solution for our clients, laying a solid foundation for the future of Data Engineering at Camgian."
+    },
+    {
+      "name": "Camgian - Internal Recognition",
+      "reference": "When our client's servers went down during the CrowdStrike outage, and we stopped receiving live data, Justin was quick to identify the root cause, reach out to the customer to confirm, and was quick to resolve the issue once the client's servers were back online. Justin set and met the goal of monitoring and responding to any issues with the production system, didn't tolerate any problems once an issue arose, quickly diagnosed the root cause, identified an effective solution, and pushed through to completion, ensuring that the product displayed accurate and up-to-date information. This award symbolizes excellence at Camgian and exemplify the drive, determination, and dedication to achieving elite performer status per our Principles."
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
