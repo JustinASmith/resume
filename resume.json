@@ -2,13 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Justin Smith",
-    "label": "Senior Data Engineer",
+    "label": "Senior Backend Engineer",
     "picture": "https://avatars.githubusercontent.com/u/28692620?v=4",
     "image": "https://avatars.githubusercontent.com/u/28692620?v=4",
-    "email": "me@justinsmith.sh",
-    "phone": "6623126864",
+    "email": "contact@justinsmith.sh",
+    "phone": "662.312.6864",
     "url": "https://resume.justinsmith.sh",
-    "summary": "Versatile engineer specializing in scalable, data-intensive systems and high-performance applications. Proficient in modern frameworks and technologies, including but not limited to AWS, Kafka, React, Docker, PostgreSQL/TimescaleDB, and Jenkins. Demonstrates a proven track record in creating robust data pipelines, real-time event processing systems, and event-driven orchestration with pub/sub architectures, delivering scalable solutions with exceptional performance, reliability, and maintainability.\n\nAdaptable and ambitious, leveraging a diverse background in software and data engineering to tackle complex challenges, mitigate risks, and deliver impactful results. Skilled at aligning engineering solutions with business goals while fostering collaboration and knowledge-sharing to drive team success. Holds Secret PCL-Level Clearance, ensuring trust and reliability in sensitive environments.\n\n**Areas of Expertise**\n\nScalable Architecture Design, Data Engineering, Full-Stack Development, Distributed Systems, Cross-functional Team Collaboration, Real-Time Data Processing, Event-Driven Orchestration, Cloud and Containerization, Data Modeling, Software Design Patterns, Performance Optimization, Agile Development, DevOps, Software Development Lifecycle (SDL)",
+    "summary": "Senior Backend Engineer focused on high-ROI infrastructure and backend systems. Leverages deep expertise in Python and Distributed Systems to build platforms that scale revenue and efficiency. Achievements include founding a company's first Data Science unit to establish new recurring revenue streams and engineering solutions that secured $8M in contracts.",
     "location": {
       "region": "Mississippi",
       "postalCode": "39759",
@@ -30,62 +30,53 @@
   },
   "work": [
     {
+      "name": "Estuary",
+      "position": "Software Engineer",
+      "startDate": "2025-02-01",
+      "highlights": [
+        "Architected a subtask state management solution to unlock data capture for 6,500 Stripe Connected Accounts, enabling parallel processing of 500,000+ concurrent streams with zero data loss.",
+        "Orchestrated a zero-downtime online migration for 20+ enterprise clients by re-architecting a legacy Airbyte wrapper into a native Async Python connector, unlocking 17 resource types and preserving 100% of historical data.",
+        "Slashed recovery log storage costs by 80% by engineering a precise JSON merge patch checkpointing system, eliminating redundant data capture and unnecessary recovery log growth.",
+        "Fortified API security by implementing robust JWT refresh and OAuth strategies, achieving 100% compliance with strict enterprise security standards for high-profile clients.",
+        "Scaled connector throughput to handle gigabytes of data/minute by implementing asynchronous patterns, reducing data lag for downstream enterprise analytics.",
+        "Championed the investigation and resolution of critical data gaps across 10+ self-authored connectors, diagnosing complex edge cases in production to successfully recover 100% of missing records.",
+        "Refactored and migrated Shopify connector by migrating to GraphQL, adding 7+ new data streams and bulk operations, improving data access for 30+ users within 3 months."
+      ],
+      "summary": "Building high-performance data connectors and infrastructure for real-time data capture at scale.",
+      "location": "Remote"
+    },
+    {
       "name": "Camgian",
       "position": "Senior Data Engineer",
       "startDate": "2023-07-31",
+      "endDate": "2025-02-01",
       "highlights": [
-        "Spearheaded the architecture and development of a global analytics platform serving 60+ industrial assets, enabling real-time operational insights and improving fleet management efficiency",
-        "Pioneered fault-tolerant data processing architecture that reduced system latency by 50% while processing 15M+ daily records across 2.9K+ industrial assets",
-        "Collaborated on cost optimization initiatives resulting in 40% reduction in monthly cloud expenses through strategic resource allocation and monitoring implementation",
-        "Recognized as a subject matter expert in the team, demonstrating profound expertise in Data Engineering and System Architecture Design, contributing to team success and competence",
-        "Inducted into the IT Trusted Partner Program, designated as the go-to individual for the Data Science team to assist the IT team with general administrative tasks, installing software, and ensuring seamless support and operational efficiency for the team and clients",
-        "Orchestrated storage optimization design to achieve 70% improvement in efficiency, managing 60K+ time-series tables while ensuring compliance and accessibility",
-        "Boosted Kafka throughput by 300% by scaling a self-managed KRaft cluster, improving disaster recovery and real-time processing capabilities",
-        "Developed and implemented comprehensive load testing strategies, resulting in 20% increased system throughput and enhanced product reliability",
-        "Created standardized development frameworks and libraries, improving team velocity and reducing implementation errors across multiple projects",
-        "Successfully delivered multiple high-impact client solutions, securing new contracts including an $8M U.S. Army project",
-        "Designed and implemented Change Data Capture (CDC) architecture enabling near real-time insights for time-sensitive operations",
-        "Led cross-functional initiatives to streamline development workflows, resulting in improved code quality and reduced time-to-market"
+        "Secured $8M in follow-on contracts and drove critical business expansion by architecting high-performance, edge-based data microservices using Docker and Python.",
+        "Increased Kafka throughput by 300% within 3 months by optimizing broker configurations in a self-managed KRaft cluster, enhancing real-time data processing capabilities.",
+        "Reduced monthly AWS costs by 40% by optimizing EC2 compute needs through detailed instrumentation and monitoring with Prometheus and Grafana.",
+        "Maintained 100% system availability during the global 2024 CrowdStrike outage by architecting a fault-tolerant Kafka platform (C#, Python), ensuring uninterrupted processing for mission-critical workflows.",
+        "Designed and built a fault-tolerant real-time data platform from the ground up using Kafka Streams and Kafka Connect, cutting data ingestion latency from 24 hours to minutes while eliminating manual intervention.",
+        "Reduced latency by 50% by optimizing Python ETL pipelines, enhancing data processing for 15M+ records daily from AWS S3.",
+        "Designed solutions that reduced storage costs by 70% by leveraging TimescaleDB tiered storage strategies backed by AWS S3 and S3 Glacier, enhancing compliance and data accessibility for 60K+ tables."
       ],
-      "summary": "Lead strategic technical initiatives focused on scaling data platforms and optimizing system performance. Drive innovation in real-time data processing while mentoring teams and establishing best practices. Consistently deliver solutions that enhance operational efficiency and create measurable business value.",
+      "summary": "Lead strategic technical initiatives focused on scaling data platforms and optimizing system performance.",
       "url": "https://www.linkedin.com/company/303647",
       "location": "Starkville, Mississippi, United States"
     },
     {
       "name": "Camgian",
       "position": "Software Engineer",
-      "startDate": "2021-06-30",
+      "startDate": "2021-06-01",
       "endDate": "2023-07-31",
       "highlights": [
-        "Drove design and development of company's first Cognitive Computing product, establishing the data science team and generating first recurring revenue in this business area",
-        "Led proof of concept demonstrations with external partners, developing edge-based data processing solutions that secured multi-million dollar contracts",
-        "Reduced code duplication by 30% through development of a shared monorepo architecture, implementing automated versioning and CI/CD pipelines",
-        "Improved release cycle times by 25% by streamlining build procedures and automating quality checks across environments",
-        "Enhanced system security by implementing SSO and MFA with additional security layers, automating user provisioning and access management",
-        "Delivered real-time data visualizations and interactive map displays for enhanced user engagement, integrating streaming data with web-based solutions",
-        "Streamlined system troubleshooting and improved reliability by developing comprehensive debugging procedures for containerized applications",
-        "Modernized development workflow by transitioning from legacy tools to Next.js, resulting in improved developer productivity, documentation adoption, and reusability",
-        "Established best practices for code quality and reusability through centralized configurations and automated build processes"
+        "Eliminated a wide class of runtime errors by re-platforming legacy web apps to a type-safe Next.js/tRPC stack, accelerating feature delivery by 50%.",
+        "Slashed code duplication by 30% and standardized build configurations by consolidating distributed TypeScript projects into a high-performance Turborepo monorepo.",
+        "Founded the company's first Data Science unit by engineering a Cognitive Computing product that secured multi-million dollar contracts and established a new recurring revenue stream.",
+        "Strengthened security posture for enterprise clients by integrating Okta SSO and MFA, streamlining access management for 25 users."
       ],
-      "summary": "Developed modern web applications, data pipelines, and edge computing solutions while driving team efficiency and productivity. Focused on transitioning legacy tools to modern frameworks, automating workflows, and delivering impactful solutions for batch and near real-time analytics and cost-efficient deployments. Successfully supported critical production systems and high-profile contracts.",
+      "summary": "Developed modern web applications and established the company's first Data Science unit.",
       "url": "https://www.linkedin.com/company/303647",
       "location": "Starkville, Mississippi, United States"
-    },
-    {
-      "name": "Central Service Association",
-      "position": "Programmer Analyst Intern",
-      "startDate": "2020-05-31",
-      "endDate": "2021-04-30",
-      "highlights": [
-        "Designed and implemented full-stack web applications enabling utility companies to access and analyze customer usage data, improving operational efficiency",
-        "Engineered data processing solutions using Java Play Framework and PostgreSQL handling millions of daily electric, water, and gas usage records, ensuring accurate billing and reporting for utility providers",
-        "Developed customer-facing reporting system processing terabytes of data, enabling self-service access to usage analytics and CSV exports",
-        "Implemented comprehensive testing strategy combining unit, integration, and UI automation tests, ensuring data accuracy and system reliability",
-        "Streamlined data access and reporting workflows for utility providers, reducing manual processing time and improving data accessibility"
-      ],
-      "summary": "Designed and implemented data-centric applications for utility providers, focusing on large-scale data processing in Java and SQL, reporting automation, and reliable system testing. Delivered solutions that improved data accessibility and operational efficiency for utility companies managing electric, water, and gas services.",
-      "url": "https://www.linkedin.com/company/2433405",
-      "location": "Tupelo, Mississippi, United States"
     }
   ],
   "volunteer": [],
@@ -99,8 +90,8 @@
     {
       "institution": "Mississippi State University",
       "area": "Software Engineering",
-      "studyType": "Bachelor's degree",
-      "startDate": "2019-12-31",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "2019-08-01",
       "endDate": "2021-05-31",
       "score": "3.68",
       "courses": []
@@ -122,74 +113,29 @@
   "publications": [],
   "skills": [
     {
-      "name": "Data Engineering",
-      "level": "",
-      "keywords": [
-        "Extract, Load, Transform (ELT)",
-        "Extract, Transform, Load (ETL)",
-        "Data Pipelines",
-        "Change Data Capture (CDC)",
-        "Kafka",
-        "PostgreSQL",
-        "TimescaleDB"
-      ]
-    },
-    {
-      "name": "Full-Stack Development",
-      "level": "",
-      "keywords": [
-        "React",
-        "Next.js",
-        "Node.js",
-        "tRPC",
-        "PostgreSQL",
-        "TimescaleDB"
-      ]
-    },
-    {
-      "name": "Enterprise Procedures",
+      "name": "Programming Languages",
       "level": "Expert",
-      "keywords": [
-        "Code Reviews",
-        "Documentation",
-        "Project Management",
-        "Agile Methodologies"
-      ]
+      "keywords": ["Python", "TypeScript", "JavaScript", "SQL", "Go"]
     },
     {
-      "name": "DevOps",
+      "name": "Frameworks & Libraries",
       "level": "Expert",
-      "keywords": [
-        "Containerization",
-        "Docker",
-        "Continuous Integration and Continuous Delivery (CI/CD)",
-        "Monitoring and Alerting",
-        "GitHub Actions",
-        "Jenkins"
-      ]
+      "keywords": ["Asyncio", "FastAPI", "Pydantic", "Next.js", "React", "tRPC", "Zod"]
     },
     {
-      "name": "Enterprise Tools",
+      "name": "Data Engineering & Analysis",
       "level": "Expert",
-      "keywords": ["Git", "GitLab", "GitHub", "Okta (OIDC)"]
+      "keywords": ["Kafka", "AVRO", "Kafka Connect", "Schema Registry", "Kafka Streams", "PostgreSQL", "TimescaleDB", "InfluxDB"]
     },
     {
-      "name": "Programming",
+      "name": "DevOps & Infrastructure",
       "level": "Expert",
-      "keywords": ["Java", "TypeScript", "Python", "C#", "SQL"]
+      "keywords": ["AWS (EC2, ECR, S3)", "Docker", "Terraform", "GitHub Actions", "GitLab", "GitHub", "Jenkins", "Linux"]
     },
     {
-      "name": "Communication",
+      "name": "Tools & Technologies",
       "level": "Expert",
-      "keywords": [
-        "Technical Writing",
-        "Public Speaking",
-        "Technical Presentations",
-        "Cross-Team Collaboration",
-        "Empathy",
-        "Active Listening",
-        "Storytelling"
-      ]
+      "keywords": ["OIDC", "REST", "GraphQL", "RabbitMQ"]
     }
   ],
   "languages": [
@@ -201,7 +147,7 @@
   "interests": [
     {
       "name": "Disc Golf",
-      "keywords": ["Casual League Play", "Cometitive Tournaments"]
+      "keywords": ["Casual League Play", "Competitive Tournaments"]
     },
     {
       "name": "Fishing",
